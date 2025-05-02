@@ -26,7 +26,8 @@
     },
     "packNpmManually": true,
     "ignoreUploadUnusedFiles": true,
-    "compileWorklet": false
+    "compileWorklet": false,
+    "minifyWXML": true
   },
   "condition": {},
   "editorSetting": {

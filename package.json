@@ -7,7 +7,7 @@
     "postcss": "^8.5.3",
     "tailwindcss": "^4.1.4",
     "typescript": "latest",
-    "weapp-tailwindcss": "^4.1.6",
+    "weapp-tailwindcss": "^4.1.7",
     "weapp-vite": "latest"
   },
   "postinstall": "weapp-tw patch",
