@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.4",
+    "@types/node": "^22.15.3",
+    "miniprogram-api-typings": "latest",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.4",
+    "typescript": "latest",
+    "weapp-tailwindcss": "^4.1.6",
+    "weapp-vite": "latest"
+  },
+  "postinstall": "weapp-tw patch",
+  "scripts": {
+    "dev": "weapp-vite dev",
+    "dev:open": "weapp-vite dev -o",
+    "build": "weapp-vite build",
+    "open": "weapp-vite open",
+    "g": "weapp-vite generate"
+  },
+  "dependencies": {
+  }
+}
